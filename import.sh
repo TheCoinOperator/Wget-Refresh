@@ -4,7 +4,7 @@
 
 #Authored by Sophie Macfarlane 29/03/2022
 
-#known bugs: Nothing to check if the version is downloadable, will not work if you between renaming the old file and moving the old file the day changes
+#known bugs: Nothing to check if the version is downloadable, will not work if between renaming the old file and moving the old file the day changes
 
 #this changes the directory so the script is 100% being run in the same place
 
