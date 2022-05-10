@@ -39,18 +39,17 @@ mv Communicatorold.msi-"`date +"%d-%m-%Y"`"  oldver
 
 #this section downloads the communicator version as specified in the version/vername variable
 
-wget  https://downloads.bicomsystems.com/desktop/glocom/public/${version}/glocom/gloCOM-${version}.exe
+wget  https://downloads.bicomsystems.com/desktop/glocom/public/${version}/communicator/Communicator-${version}.exe
 
-wget  https://downloads.bicomsystems.com/desktop/glocom/public/${version}/glocom/gloCOM-${version}.dmg
+wget  https://downloads.bicomsystems.com/desktop/glocom/public/${version}/communicator/Communicator-${version}.dmg
 
-wget  https://downloads.bicomsystems.com/desktop/glocom/public/${version}/glocom/gloCOM.msi
+wget  https://downloads.bicomsystems.com/desktop/glocom/public/${version}/communicator/communicator.msi
 
 
 #this section renames the new files to Communicator.fileextension
 
-mv gloCOM-${version}.exe Communicator.exe
+mv Communicator-${version}.exe Communicator.exe
 
-mv gloCOM-${version}.dmg Communicator.dmg
+mv Communicator-${version}.dmg Communicator.dmg
 
-mv gloCOM.msi Communicator.msi
 
